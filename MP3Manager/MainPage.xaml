@@ -1,0 +1,46 @@
+﻿<Page x:Class="MP3Manager.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MP3Manager"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="MainPage">
+
+    <StackPanel Background="beige">
+        <TextBlock Text="Music album manager" Foreground="Black" FontFamily="Roboto" 
+                   FontSize="80" TextAlignment="Center" 
+                   Margin="0,30, 0, 0"
+                   TextWrapping="Wrap">
+        </TextBlock>
+        <Button x:Name ="ChangePage_Search" 
+                HorizontalContentAlignment="Center" 
+                VerticalContentAlignment="Center"
+                Height="100"
+                MaxWidth="600"
+                Margin="0, 40, 0, 0"
+                Click="ChangePage_SearchPage">
+            <Button.Content>
+                <TextBlock Text="Znajdź album" 
+                           Foreground="Black" 
+                           FontFamily="Roboto" 
+                           FontSize="40"/>
+            </Button.Content>
+        </Button>
+        <Button x:Name ="ChangePage_Add" 
+                HorizontalContentAlignment="Center" 
+                VerticalContentAlignment="Center"
+                Height="100"
+                MaxWidth="600"
+                Margin="0, 20, 0, 20"
+                Click="ChangePage_AddPage">
+            <Button.Content>
+                <TextBlock Text="Dodaj album" 
+                           Foreground="Black" 
+                           FontFamily="Roboto" 
+                           FontSize="40"/>
+            </Button.Content>
+        </Button>
+    </StackPanel>
+</Page>

@@ -1,0 +1,162 @@
+﻿<Page x:Class="MP3Manager.ResultsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MP3Manager"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+       Background="beige"
+      Title="ResultsPage">
+
+    <StackPanel>
+
+        <TextBlock Text="Wyniki wyszukiwania" 
+                   Foreground="Black" 
+                   FontFamily="Roboto" 
+                   
+           FontSize="50" TextAlignment="Center" 
+           Margin="0,30, 0, 0"
+           TextWrapping="Wrap"
+           />
+        <Button x:Name ="Filters" HorizontalContentAlignment="Center" 
+ VerticalContentAlignment="Center"
+ Height="30"
+ MaxWidth="80"
+ Margin="0, 10, 0, 10"
+ Click="Display_Filters"
+ MinHeight="30"
+ >
+            <Button.Content>
+                <TextBlock Text="Filtry" 
+            Foreground="Black" 
+            FontFamily="Roboto" 
+            FontSize="15"/>
+            </Button.Content>
+        </Button>
+        <Grid>
+            <ScrollViewer VerticalScrollBarVisibility="Visible">
+            <ListView Margin="0,10,10,10" 
+                      Name="Results" 
+                      HorizontalAlignment="Center" 
+                      MaxHeight="400">
+                <ListView.View>
+                    <GridView AllowsColumnReorder="False">
+                        <GridViewColumn Header="Nazwa Albumu" Width="150" DisplayMemberBinding="{Binding name}" />
+                        <GridViewColumn Header="Wykonawca" Width="150" DisplayMemberBinding="{Binding artist}" />
+                        <GridViewColumn Header="Rok Wydania" Width="150" DisplayMemberBinding="{Binding releaseYear}" />
+                        <GridViewColumn Header="Data Dodania" Width="150" DisplayMemberBinding="{Binding date}" />
+                        <GridViewColumn Header="Edycja" Width="100">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Content="Usuń z bazy" Click="DeleteButton_Click" 
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                FontFamily="Roboto"
+                                                Margin="12,0,0,0"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                </ListView.View>
+            </ListView>
+            </ScrollViewer>
+        </Grid>
+        <Button x:Name ="GoBack" HorizontalContentAlignment="Center" 
+        VerticalContentAlignment="Center"
+        Height="30"
+        MaxWidth="80"
+        Margin="0, 10, 0, 10"
+        Click="ChangePage_MainWindow"
+        MinHeight="30"
+        >
+            <Button.Content>
+                <TextBlock Text="Powrót" 
+                   Foreground="Black" 
+                   FontFamily="Roboto" 
+                   FontSize="15"/>
+            </Button.Content>
+        </Button>
+        <Popup x:Name="FilterListPopup" Placement="Center" StaysOpen="False" 
+    Height="215" Width="256" >
+            <Border BorderThickness="1" Background="White"
+         >
+                <StackPanel>
+                    <TextBlock Text="Jak chcesz posortować dane?" Margin="5" FontSize="15" FontFamily="Roboto" TextAlignment="Center"/>
+                    <ListBox x:Name="SortingOptions" SelectionMode="Single">
+                        <ListBoxItem>
+                            <RadioButton Content="Albumy A-Z" GroupName="SortGroup" Tag="1" Click="Filter_Chosen"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <RadioButton Content="Albumy Z-A" GroupName="SortGroup" Tag="2" Click="Filter_Chosen"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <RadioButton Content="Wykonawcy A-Z" GroupName="SortGroup" Tag="3" Click="Filter_Chosen"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <RadioButton Content="Wykonawcy Z-A" GroupName="SortGroup" Tag="4" Click="Filter_Chosen"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <RadioButton Content="Najnowsze wydania" GroupName="SortGroup" Tag="7" Click="Filter_Chosen"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <RadioButton Content="Najstarsze wydania" GroupName="SortGroup" Tag="8" Click="Filter_Chosen"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <RadioButton Content="Dodane najpierw" GroupName="SortGroup" Tag="5" Click="Filter_Chosen"/>
+                        </ListBoxItem>
+                        <ListBoxItem>
+                            <RadioButton Content="Dodane ostatnio" GroupName="SortGroup" Tag="6" Click="Filter_Chosen"/>
+                        </ListBoxItem>
+                    </ListBox>
+                    <Button x:Name="ErrorOK" 
+                                Content="Anuluj" 
+                                Height="20"
+                                Width="60"
+                                FontSize="15"
+                                FontFamily="Roboto"
+                                Margin="0, 5, 0, 0"
+                                Click="ClosePopup"/>
+                </StackPanel>
+
+
+            </Border>
+        </Popup>
+        <Popup x:Name="Confirmation" Placement="Center" StaysOpen="False" 
+       Height="164" Width="256" >
+            <Border BorderThickness="1" Background="White"
+            >
+                <StackPanel>
+                    <TextBlock x:Name="PopUpText" Margin="10" 
+   VerticalAlignment="Top" 
+   HorizontalAlignment="Center"
+   TextWrapping="Wrap"
+   TextAlignment="Center"
+   FontSize="15"
+   FontFamily="Roboto"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                        <Button x:Name="ConfirmationTrue" 
+                        Content="Tak" 
+                        Click="DeleteConfirmation_OK"
+                        Height="20"
+                        Width="60"
+                        FontSize="15"
+                        FontFamily="Roboto"
+                        Margin="0, 2, 5, 0"
+                        />
+                        <Button x:Name="ConfirmationFalse" 
+                        Content="Anuluj" 
+                        Click="DeleteConfirmation_NO"
+                        Height="20"
+                        Width="60"
+                        Margin="5, 2, 0, 0"
+                        FontSize="15"
+                        FontFamily="Roboto"/>
+                    </StackPanel>
+                </StackPanel>
+
+
+            </Border>
+        </Popup>
+    </StackPanel>
+</Page>

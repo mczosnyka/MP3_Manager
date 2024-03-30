@@ -1,0 +1,188 @@
+﻿<Page x:Class="MP3Manager.SearchPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MP3Manager"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="SearchPage"
+      Background="beige">
+    <StackPanel>
+
+        <TextBlock Text="Wprowadź dane do wyszukiwania" 
+                   Foreground="Black" 
+                   FontFamily="Roboto" 
+                   
+           FontSize="50" TextAlignment="Center" 
+           Margin="0,30, 0, 0"
+           TextWrapping="Wrap"
+           >
+        </TextBlock>
+        <Viewbox MaxHeight="60"
+                 MaxWidth="220">
+            <Label Content="Podaj nazwę albumu:"
+               Width="128"
+               HorizontalAlignment="Left"
+               FontFamily="Roboto"
+               />
+        </Viewbox>
+        <TextBox x:Name="AlbumName"
+                 MaxHeight="120"
+                 MaxWidth="400"
+                 FontSize="20"
+                 Margin="0, 0, 0, 10 "
+                 HorizontalContentAlignment="Center">
+
+        </TextBox>
+        <Viewbox MaxHeight="60"
+                 MaxWidth="220">
+            <Label Content="Podaj nazwę artysty:"
+               Width="128"
+               HorizontalAlignment="Left"
+               FontFamily="Roboto"
+               />
+        </Viewbox>
+        <TextBox x:Name="ArtistName"
+                 MaxHeight="120"
+                 MaxWidth="400"
+                 FontSize="20"
+                 Margin="0, 0, 0, 10 "
+                 HorizontalContentAlignment="Center">
+
+        </TextBox>
+        <Viewbox MaxHeight="60"
+         MaxWidth="220">
+            <Label Content="Wybierz rok wydania:"
+       Width="128"
+       HorizontalAlignment="Center"
+                   HorizontalContentAlignment="Center"
+       FontFamily="Roboto"
+       />
+        </Viewbox>
+        <ComboBox
+    x:Name="ReleaseYears"
+    Margin="0,1,0,10"
+    Height="25"
+    MaxHeight="60"
+    HorizontalContentAlignment="Center"
+    VerticalContentAlignment="Center"
+         MaxWidth="220">
+            <ComboBoxItem x:Name="ReleaseYear_Any" IsSelected="True"  Content="Dowolny"></ComboBoxItem>
+        </ComboBox>
+        <Viewbox MaxHeight="60"
+        VerticalAlignment="Center"
+                 HorizontalAlignment="Center"
+         MaxWidth="400">
+            <Label Content="Wybierz miesiąc dodania:"
+       Width="400"
+       HorizontalContentAlignment="Center"
+       FontFamily="Roboto"
+       FontSize="20"
+       />
+        </Viewbox>
+        <ComboBox
+            x:Name="Months"
+            Margin="0,1,0,10"
+            Height="25"
+            MaxHeight="60"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+                 MaxWidth="220">
+            <ComboBoxItem x:Name="Month_Any" IsSelected="True" Content="Dowolny"></ComboBoxItem>
+            <ComboBoxItem x:Name="Month_01" Content="Styczeń"></ComboBoxItem>
+            <ComboBoxItem x:Name="Month_02" Content="Luty"></ComboBoxItem>
+            <ComboBoxItem x:Name="Month_03" Content="Marzec"></ComboBoxItem>
+            <ComboBoxItem x:Name="Month_04" Content="Kwiecień"></ComboBoxItem>
+            <ComboBoxItem x:Name="Month_05" Content="Maj"></ComboBoxItem>
+            <ComboBoxItem x:Name="Month_06" Content="Czerwiec"></ComboBoxItem>
+            <ComboBoxItem x:Name="Month_07" Content="Lipiec"></ComboBoxItem>
+            <ComboBoxItem x:Name="Month_08" Content="Sierpień"></ComboBoxItem>
+            <ComboBoxItem x:Name="Month_09" Content="Wrzesień"></ComboBoxItem>
+            <ComboBoxItem x:Name="Month_10" Content="Październik"></ComboBoxItem>
+            <ComboBoxItem x:Name="Month_11" Content="Listopad"></ComboBoxItem>
+            <ComboBoxItem x:Name="Month_12" Content="Grudzień"></ComboBoxItem>
+        </ComboBox>
+        <Viewbox MaxHeight="60"
+ VerticalAlignment="Center"
+          HorizontalAlignment="Center"
+  MaxWidth="400">
+            <Label Content="Wybierz rok dodania:"
+Width="400"
+HorizontalContentAlignment="Center"
+FontFamily="Roboto"
+FontSize="20"
+/>
+        </Viewbox>
+        <ComboBox x:Name="Years"
+    Height="25"
+    MaxHeight="60"
+    HorizontalContentAlignment="Center"
+    VerticalContentAlignment="Center"
+         MaxWidth="220">
+            <ComboBoxItem x:Name="Year_Any" IsSelected="True"  Content="Dowolny"></ComboBoxItem>
+            
+        </ComboBox>
+
+
+        <Button x:Name ="SearchAlbum" HorizontalContentAlignment="Center" 
+        VerticalContentAlignment="Center"
+        Height="50"
+        MaxWidth="120"
+        Margin="0, 10, 0, 5"
+        Click="SearchForAlbum"
+        >
+            <Button.Content>
+                <TextBlock Text="Szukaj" 
+                   Foreground="Black" 
+                   FontFamily="Roboto" 
+                   FontSize="15"/>
+            </Button.Content>
+        </Button>
+        <Button x:Name ="GoBack" HorizontalContentAlignment="Center" 
+        VerticalContentAlignment="Center"
+        Height="30"
+        MaxWidth="80"
+        Margin="0, 10, 0, 10"
+        Click="ChangePage_MainWindow"
+        MinHeight="30"
+        >
+            <Button.Content>
+                <TextBlock Text="Powrót" 
+                   Foreground="Black" 
+                   FontFamily="Roboto" 
+                   FontSize="15"/>
+            </Button.Content>
+        </Button>
+        <Popup x:Name="ErrorPopup" Placement="Center" StaysOpen="False" 
+    Height="72" Width="256" >
+            <Border BorderThickness="1" Background="White"
+         >
+                <StackPanel>
+                    <TextBlock x:Name="ErrorText" Margin="1"
+VerticalAlignment="Top" 
+HorizontalAlignment="Center"
+TextWrapping="Wrap"
+TextAlignment="Center"
+FontSize="15"
+FontFamily="Roboto"
+Text="BŁĄD: Żaden album nie pasuje do kryteriów wyszukiwania!"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                        <Button x:Name="ErrorOK" 
+                     Content="OK" 
+                     Click="ErrorOK_Click1"
+                     Height="20"
+                     Width="60"
+                     FontSize="15"
+                     FontFamily="Roboto"
+                     Margin="0, 1, 0, 0"
+                     />
+                    </StackPanel>
+                </StackPanel>
+
+
+            </Border>
+        </Popup>
+
+    </StackPanel>
+</Page>

@@ -1,0 +1,179 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projekty\\MP3Manager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|c:\\projekty\\mp3manager\\mp3manager\\addfromfolderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|solutionrelative:mp3manager\\addfromfolderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|c:\\projekty\\mp3manager\\mp3manager\\addfromfolderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|solutionrelative:mp3manager\\addfromfolderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|c:\\projekty\\mp3manager\\mp3manager\\addpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|solutionrelative:mp3manager\\addpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|c:\\projekty\\mp3manager\\mp3manager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|solutionrelative:mp3manager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|c:\\projekty\\mp3manager\\mp3manager\\addpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|solutionrelative:mp3manager\\addpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|c:\\projekty\\mp3manager\\mp3manager\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|solutionrelative:mp3manager\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|c:\\projekty\\mp3manager\\mp3manager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|solutionrelative:mp3manager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|c:\\projekty\\mp3manager\\mp3manager\\resultspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|solutionrelative:mp3manager\\resultspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|c:\\projekty\\mp3manager\\mp3manager\\resultspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|solutionrelative:mp3manager\\resultspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|c:\\projekty\\mp3manager\\mp3manager\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA1E34C1-4D74-4268-A127-9479A5C1F227}|MP3Manager\\MP3Manager.csproj|solutionrelative:mp3manager\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddPage.xaml",
+              "DocumentMoniker": "C:\\Projekty\\MP3Manager\\MP3Manager\\AddPage.xaml",
+              "RelativeDocumentMoniker": "MP3Manager\\AddPage.xaml",
+              "ToolTip": "C:\\Projekty\\MP3Manager\\MP3Manager\\AddPage.xaml",
+              "RelativeToolTip": "MP3Manager\\AddPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-26T12:22:03.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Projekty\\MP3Manager\\MP3Manager\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MP3Manager\\MainWindow.xaml",
+              "ToolTip": "C:\\Projekty\\MP3Manager\\MP3Manager\\MainWindow.xaml",
+              "RelativeToolTip": "MP3Manager\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-26T12:21:02.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddFromFolderPage.xaml",
+              "DocumentMoniker": "C:\\Projekty\\MP3Manager\\MP3Manager\\AddFromFolderPage.xaml",
+              "RelativeDocumentMoniker": "MP3Manager\\AddFromFolderPage.xaml",
+              "ToolTip": "C:\\Projekty\\MP3Manager\\MP3Manager\\AddFromFolderPage.xaml",
+              "RelativeToolTip": "MP3Manager\\AddFromFolderPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-26T12:55:56.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddFromFolderPage.xaml.cs",
+              "DocumentMoniker": "C:\\Projekty\\MP3Manager\\MP3Manager\\AddFromFolderPage.xaml.cs",
+              "RelativeDocumentMoniker": "MP3Manager\\AddFromFolderPage.xaml.cs",
+              "ToolTip": "C:\\Projekty\\MP3Manager\\MP3Manager\\AddFromFolderPage.xaml.cs",
+              "RelativeToolTip": "MP3Manager\\AddFromFolderPage.xaml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwCkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T12:12:12.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Projekty\\MP3Manager\\MP3Manager\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "MP3Manager\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Projekty\\MP3Manager\\MP3Manager\\DatabaseHelper.cs",
+              "RelativeToolTip": "MP3Manager\\DatabaseHelper.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAgwDUAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T17:07:21.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddPage.xaml.cs",
+              "DocumentMoniker": "C:\\Projekty\\MP3Manager\\MP3Manager\\AddPage.xaml.cs",
+              "RelativeDocumentMoniker": "MP3Manager\\AddPage.xaml.cs",
+              "ToolTip": "C:\\Projekty\\MP3Manager\\MP3Manager\\AddPage.xaml.cs",
+              "RelativeToolTip": "MP3Manager\\AddPage.xaml.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAgwGIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T12:32:25.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Projekty\\MP3Manager\\MP3Manager\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MP3Manager\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Projekty\\MP3Manager\\MP3Manager\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MP3Manager\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T12:21:05.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SearchPage.xaml.cs",
+              "DocumentMoniker": "C:\\Projekty\\MP3Manager\\MP3Manager\\SearchPage.xaml.cs",
+              "RelativeDocumentMoniker": "MP3Manager\\SearchPage.xaml.cs",
+              "ToolTip": "C:\\Projekty\\MP3Manager\\MP3Manager\\SearchPage.xaml.cs",
+              "RelativeToolTip": "MP3Manager\\SearchPage.xaml.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAgwF4AAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T17:06:23.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResultsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Projekty\\MP3Manager\\MP3Manager\\ResultsPage.xaml.cs",
+              "RelativeDocumentMoniker": "MP3Manager\\ResultsPage.xaml.cs",
+              "ToolTip": "C:\\Projekty\\MP3Manager\\MP3Manager\\ResultsPage.xaml.cs",
+              "RelativeToolTip": "MP3Manager\\ResultsPage.xaml.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAgwIUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:32:54.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ResultsPage.xaml",
+              "DocumentMoniker": "C:\\Projekty\\MP3Manager\\MP3Manager\\ResultsPage.xaml",
+              "RelativeDocumentMoniker": "MP3Manager\\ResultsPage.xaml",
+              "ToolTip": "C:\\Projekty\\MP3Manager\\MP3Manager\\ResultsPage.xaml",
+              "RelativeToolTip": "MP3Manager\\ResultsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T14:30:01.817Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
